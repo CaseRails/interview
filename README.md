@@ -39,3 +39,9 @@ Interview Task B:
   4. Find the "Manage" button by its ID on the page.  Do this by adding a 'manageButton' member to the Contacts List Page Object.
   5. Click it.
   6. Verify that the header at the top of the page says "Manage"
+5. Take a screenshot of your Main shell showing the protractor tests run successfully.
+6. Get me your code, so that I can look at it and run it.
+  1. Make a commit of the files you've changed.
+  2. Create a patch file: `git format-patch origin`
+  3. Note - If you have made more than one commit, this will make multiple patch files.
+7. Email me the patch file(s) so that I can run your code and see if it works.
