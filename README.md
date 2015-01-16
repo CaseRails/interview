@@ -33,9 +33,9 @@ Interview Task B:
 3. To complete this task you'll need to modify the files `protractor.conf.js`, `protractor/interview.js`, and `protractor/contacts_list.page.js`.
 4. The interview spec should do the following:
   1. Start on the "Create Wizard" page, like the dev_intro spec.
-  1. Find the "Contacts" button by its ID on the page.
+  1. Find the "Contacts" button by its ID on the page.  Do this by adding a 'contactsButton' member to the Create Wizard Page Object.
   2. Click it.
-  3. Verify that the header at the top of th page says "Contacts"
-  4. Find the "Manage" button by its ID on the page.
+  3. Verify that the header at the top of the page says "Contacts"
+  4. Find the "Manage" button by its ID on the page.  Do this by adding a 'manageButton' member to the Contacts List Page Object.
   5. Click it.
   6. Verify that the header at the top of the page says "Manage"
