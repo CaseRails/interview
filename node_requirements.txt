@@ -1,0 +1,5 @@
+jasmine-node@latest
+jasmine@latest
+git+https://github.com/angular/protractor.git
+jshint
+selenium-webdriver

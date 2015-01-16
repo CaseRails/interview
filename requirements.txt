@@ -1,0 +1,10 @@
+selenium
+sauceclient
+pytest
+requests
+pylama
+pep8
+pep257
+pyflakes
+mccabe
+pylama_pylint
