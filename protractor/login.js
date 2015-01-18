@@ -6,7 +6,7 @@ var LoginPage = require('./login.page.js');
 describe('The CaseRails login page', function() {
     var page = new LoginPage();
     page.get();
-    page.init()
+    page.init();
 
     it('should have a CSRF token', function(done) {
         expect(page.csrfToken.getAttribute('value')).toBeTruthy();

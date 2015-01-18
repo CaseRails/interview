@@ -14,7 +14,7 @@ var CreateWizardPageStep1 = function(){
         browser.get(global.baseUrl + '/#/create_wizard');
         this.init();
     };
-}
+};
 
 var CreateWizardPageStep2 = function(){
     this.init = function(){
@@ -26,7 +26,7 @@ var CreateWizardPageStep2 = function(){
         browser.get(global.baseUrl + '/#/create_wizard2/'+client_id);
         this.init();
     };
-}
+};
 
 var CreateWizardPageStep3 = function(){
     this.init = function(){
@@ -48,9 +48,9 @@ var CreateWizardPageStep3 = function(){
         browser.driver.sleep(2000);
         this.init();
     };
-}
+};
 
 module.exports = {
     'Step1':CreateWizardPageStep1,
     'Step2':CreateWizardPageStep2,
-    'Step3':CreateWizardPageStep3}
+    'Step3':CreateWizardPageStep3};

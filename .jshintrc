@@ -1,0 +1,13 @@
+{
+    "predef":[
+        "browser",
+        "element",
+        "require",
+        "it",
+        "expect",
+        "module",
+        "by",
+        "global",
+        "describe"
+    ]
+}

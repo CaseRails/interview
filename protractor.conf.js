@@ -23,7 +23,7 @@ var protractor_config_dict = {
         global.password = process.env.TEST_LOGIN_PASSWORD;
         global.email = process.env.TEST_LOGIN_EMAIL;
         browser.driver.manage().window().setSize(1400, 800);
-        browser.driver.get(global.baseUrl)
+        browser.driver.get(global.baseUrl);
         // implicit and page load timeouts
         browser.manage().timeouts().pageLoadTimeout(10000);
         browser.manage().timeouts().implicitlyWait(5000);
@@ -43,4 +43,4 @@ var protractor_config_dict = {
 };
 
 //Protractor configuration file.
-exports.config = protractor_config_dict
+exports.config = protractor_config_dict;

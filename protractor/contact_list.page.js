@@ -11,4 +11,4 @@ var Page = function(){
     };
 };
 
-module.exports = Page
+module.exports = Page;
